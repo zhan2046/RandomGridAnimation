@@ -1,21 +1,19 @@
 package zhan.rnadomgirdanimation.refresh;
 
-import android.support.v7.widget.RecyclerView;
-import java.util.List;
+import androidx.recyclerview.widget.RecyclerView;
 
-/**
- * Created by zhan on 2016/12/11.
- */
+import java.util.List;
 
 public abstract class IRefreshAdapter<T> extends RecyclerView.Adapter {
 
-  protected List<T> mData;
+    protected List<T> mData;
 
-  public void setData(List<T> data) {
-    mData = data;
-  }
+    public void setData(List<T> data) {
+        mData = data;
+    }
 
-  @Override public int getItemCount() {
-    return mData == null ? 0 : mData.size();
-  }
+    @Override
+    public int getItemCount() {
+        return mData == null ? 0 : mData.size();
+    }
 }
