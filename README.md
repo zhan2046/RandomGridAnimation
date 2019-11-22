@@ -1,15 +1,13 @@
 
-RandomGridAnimation
+Screenshots
 ===============
 
 ![](https://github.com/ruzhan123/RandomGridAnimation/raw/master/gif/random.gif)
 
-
-Developed by :speech_balloon:
+Developed by :
 -------
 
- ruzhan - <a href='javascript:'>dev19921116@gmail.com</a>
-
+ruzhan - <a href='javascript:'>dev19921116@gmail.com</a>
 
 License
 -------
